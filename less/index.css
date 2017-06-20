@@ -1,0 +1,112 @@
+* {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	font-family: Helvetica, Arial,"Microsoft Yahei","STXihei","STHeiti Light","STHeitiSC-Light",sans-serif;
+	font-weight: bold;
+}
+ol,ul,li,p{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	display: block;
+	width: 180px;
+	height: 70px;
+	font-size: 14px;
+	text-decoration:none;
+	color: #ccc;
+}
+a:link{
+	text-decoration:none;
+}
+a:visited{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+a:active{
+	text-decoration:none;
+}
+input {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+}
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #30A1E5;
+	text-align: center;
+	margin: 30px;
+}
+ul {
+	text-align: center;
+}
+li {
+	text-align: center;
+	margin: 20px;
+	display: inline-block;
+	width: 180px;
+	height: 70px;
+	background: #fff;
+	vertical-align: middle;
+	line-height: 70px;
+	border-radius: 4px;
+	padding: 20px;
+}
+li:hover {
+	-webkit-box-shadow: inset 0 0 30px rgba(0,0,0,0.1);
+	-moz-box-shadow: inset 0 0 30px rgba(0,0,0,0.1);
+	-ms-box-shadow: inset 0 0 30px rgba(0,0,0,0.1);
+	-o-box-shadow: inset 0 0 30px rgba(0,0,0,0.1);
+	box-shadow: inset 0 0 30px rgba(0,0,0,0.1);
+}
+li:hover a {
+	color: #30A1E5;
+}
+.cell :before {
+	display: block;
+	font: normal normal normal 24px/1 "Material Design Icons";
+	font-size: 24px;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: "\f48b";
+	display: block;
+}
+.press :before {
+	display: block;
+	font: normal normal normal 24px/1 "Material Design Icons";
+	font-size: 24px;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: "\f495";
+	display: block;
+}
+.gird :before {
+	display: block;
+	font: normal normal normal 24px/1 "Material Design Icons";
+	font-size: 24px;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: "\f2c1";
+	display: block;
+}
+.toast :before {
+	display: block;
+	font: normal normal normal 24px/1 "Material Design Icons";
+	font-size: 24px;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: "\f63f";
+	display: block;
+}
